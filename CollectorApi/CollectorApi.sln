@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectorApi", "CollectorApi.csproj", "{957EA0A4-3E0C-4EE7-A4D5-518208AAA63E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{957EA0A4-3E0C-4EE7-A4D5-518208AAA63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957EA0A4-3E0C-4EE7-A4D5-518208AAA63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957EA0A4-3E0C-4EE7-A4D5-518208AAA63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957EA0A4-3E0C-4EE7-A4D5-518208AAA63E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA0FF8AC-075A-40AA-95FD-20E26EF90961}
+	EndGlobalSection
+EndGlobal

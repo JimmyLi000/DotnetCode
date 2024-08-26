@@ -1,0 +1,35 @@
+services:
+  CollectorApi:
+    image: haitai656/collectorapi:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5064:5064"
+      - "5443:5443"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 500M
+
+  HttpCollector:
+    image: haitai656/httpcollector:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    network_mode: host
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 500M
+
+  Collector:
+    image: haitai656/collector:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    network_mode: host
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 500M

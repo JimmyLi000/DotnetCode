@@ -1,0 +1,6 @@
+@CollectorApi_HostAddress = http://*:5064
+
+GET {{CollectorApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
